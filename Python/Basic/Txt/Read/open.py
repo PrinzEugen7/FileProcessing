@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 
 def main():
     # ファイルを開く(読み込みモード)
@@ -8,6 +8,6 @@ def main():
         print(line) # 1行ずつ表示
     # ファイルを閉じる
     f.close()
-    
+
 if __name__ == "__main__":
     main()
