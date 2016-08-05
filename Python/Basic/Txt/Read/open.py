@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*- 
 
-
 def main():
     # ファイルを開く(読み込みモード)
     f = open("read.txt","r")
@@ -11,7 +10,4 @@ def main():
     f.close()
     
 if __name__ == "__main__":
-  main()
-
-
---実行結果--
+    main()
