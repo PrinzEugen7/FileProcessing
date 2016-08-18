@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 def main():
-    # ファイルを開く(読み込みモード)
+    # ファイルを開く(書き込みモード)
     f = open("data.txt","w")
     text = "test data"
     f.write(text)
