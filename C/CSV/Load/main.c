@@ -14,7 +14,7 @@ int main(void)
 		return -1;
 	}
 
-	while( ( ret = fscanf( fp, "%[^,],%f,%f", s, &data1, &data2) ) != EOF ){
+	while( ( ret = fscanf( fp, "%[^,],%f,%f", data1, &data2, &data3) ) != EOF ){
 		printf( "%s %f %f", data1, data2, data3 );
 	}
 
